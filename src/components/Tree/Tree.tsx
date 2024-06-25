@@ -13,7 +13,6 @@ const TreeComponent = ({ nodes, editingIndex, setEditingIndex }: TreeProps) => {
 
   return (
     <div className="tree">
-      <h3>Tree</h3>
       <ul>
         {nodes.map((node) => (
           <NodeComponent

@@ -1,16 +1,15 @@
 .tree {
-    margin-bottom: 20px;
-    width: 100%;
-  }
-  
-  .tree h3 {
-    margin: 0;
-    margin-bottom: 10px;
-  }
-  
-  .tree ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.tree h3 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.tree ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}

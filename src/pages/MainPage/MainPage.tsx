@@ -1,4 +1,4 @@
-import { useState} from "react";
+import { useState } from "react";
 import "./mainPage.css";
 import TreeComponent from "../../components/Tree/Tree.tsx";
 import { Node } from "../../types/types.ts";
@@ -39,13 +39,17 @@ const MainPage = () => {
     setNewNodeName("");
     setEditNodeName("");
   };
+
   return (
-    <div className="tree-container" >
+    <div className="tree-container">
+      <h3>Tree</h3>
+      <hr className="separator" />
       <TreeComponent
         nodes={nodes}
         editingIndex={editingIndex}
         setEditingIndex={setEditingIndex}
       />
+      <hr className="separator" />
       <div className="controls">
         <input
           type="text"
