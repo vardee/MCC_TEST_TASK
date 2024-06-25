@@ -1,0 +1,38 @@
+.tree-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid green;
+  padding: 20px;
+  max-width: 800px;
+  width: 100%;
+  min-height: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.controls input {
+  margin: 5px;
+  padding: 5px;
+}
+
+.controls button {
+  padding: 8px 16px;
+  border: 1px solid green;
+  background-color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+  background-color: lightgreen;
+}
