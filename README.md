@@ -1,9 +1,9 @@
 # Tree
 
 ## 🛠 Tech stack
-*React
-*TypeScript
-*CSS
+1) React
+2) TypeScript
+3) CSS
 
 
 
